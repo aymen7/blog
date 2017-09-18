@@ -24,9 +24,8 @@
     <!-- my style css-->
     <link rel="stylesheet" href="css/index.css" >
     <!-- font links -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -38,8 +37,12 @@
 </head>
 <!----------------------------- the body tag--------------------------------------->
 <body>
+<!-- header.php-->
+<?php  include ("php/header.php");?>
+
 
 <!-- js scripts ------------------------------>
+
 <!-- jquery script-->
 <script src="js_files/jquery-3.1.1.js"></script>
 <!-- jquery ui script-->
