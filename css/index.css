@@ -1,15 +1,13 @@
-/*----------------240px---------------*/
-@media (min-width:240px){
-    input:focus,input:active,textarea:active,textarea:focus{
+/*----------------320px---------------*/
+@media (min-width:320px){
+     input:focus,input:active,textarea:active,textarea:focus{
         outline:0px !important;
         -webkit-appearance:none !important;
         -webkit-box-shadow: none !important;
         box-shadow: none !important;
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
     }
-
-
- header{
+     header{
      background: #046dc8; /* For browsers that do not support gradients */
      background: -webkit-linear-gradient(left, #222831 , #046dc8); /* For Safari 5.1 to 6.0 */
      background: -o-linear-gradient(right, #222831 , #046dc8); /* For Opera 11.1 to 12.0 */
@@ -19,14 +17,17 @@
      padding-bottom: 10%;
 
  }
+     #header-main{
+         position: absolute;
+     }
     /*-----navbar----*/
     .navbar-default,.navbar{
         background-color: rgba(255,255,255,0) !important;
         border: none !important;
     }
-
     .navbar-default .navbar-header button{
         border: none;
+        margin-right: 2%;
     }
     .navbar-default .navbar-header button:focus{
         background-color: rgba(1,1,1,0) !important;
@@ -34,21 +35,22 @@
     .navbar-default .navbar-header .navbar-toggle  .icon-bar {
         background-color: white !important;
     }
-.navbar-brand{
+    .navbar-brand{
     color: white !important;
     height: 30px;
     margin-top: 4%;
-    margin-left: 1%;
+    margin-left: 5%;
     padding: 0;
-    padding-left: 20%;
+    padding-left: 5%;
     width: 60%;
     background-color:rgba(255,255,255,0) ;
 
 }
-.navbar-brand::placeholder{
-    font-size: small;
+    .navbar-brand::placeholder{
+    font-size: medium;
     color: white;
     opacity: .7;
+        font-family: "Kelly Slab",cursive;
 }
  /*------header-main --------*/
     #header-main-title-div,#header-sec-title-div{
@@ -59,9 +61,57 @@
         font-size: xx-large;
     }
     #header-sec-title-div h2 {
-        font-family: 'Cutive Mono', monospace;
-        font-size: x-small;
+        font-family: 'Share Tech Mono', monospace;
+        font-size: medium;
     }
+/*--------------------------------------main-content-------------*/
+    #main-column{
+        padding-left: 0;
+    }
+    .post{
+        margin-top: 10%;
+        padding-bottom: 10%;
+        border-bottom: solid thin rgba(0,0,0,0.2);
+    }
+    .date_tag-wrapper{
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
+    .date_tag-wrapper div{
+        display: inline;
+    }
+
+    .date-div h3,.date-div span,.tag-div h3,.date-div span,.author-div h3,.author-div span{
+        display: inline;
+    }
+    .post img{
+        display: block;
+    }
+    .date-div h3,.tag-div h3,.author-div h3{
+        font-size: medium;
+        color: #046dc8;
+        font-family: 'Patua One', cursive;
+    }
+    .date-div span,.tag-div span,.author-div span{
+        font-size: small;
+        opacity: 0.5;
+        font-family: 'Patua One', cursive;
+
+    }
+    .post-title{
+        font-family: "Changa One",cursive;
+    }
+    .post-body-teaser{
+        font-family: "Kelly Slab",cursive;
+        opacity: .9;
+    }
+    .post .btn-default{
+        margin-top: 10%;
+        background-color: #046dc8;
+        color: white;
+    }
+
+
 
 }
 /*---------------------------------*/

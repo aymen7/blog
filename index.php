@@ -26,6 +26,9 @@
     <!-- font links -->
     <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Changa+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kelly+Slab" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -38,7 +41,11 @@
 <!----------------------------- the body tag--------------------------------------->
 <body>
 <!-- header.php-->
+<div class="count-particles hidden">
+    <span class="js-count-particles">--</span> particles
+</div>
 <?php  include ("php/header.php");?>
+<?php  include ("php/main-content.php");?>
 
 
 <!-- js scripts ------------------------------>
@@ -51,5 +58,9 @@
 <script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
 <!-- my js script-->
 <script src="js_files/index.js"></script>
+
+<script src="particles.js-master/particles.js"></script>
+<script src="particles.js-master/demo/js/app.js"></script>
+<script src="particles.js-master/demo/js/lib/stats.js"></script>
 </body><!-- end of the body tag -------------->
 </html><!-- end of the document-->
