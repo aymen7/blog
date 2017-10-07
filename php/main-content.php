@@ -25,18 +25,11 @@
             echo ' </div><!-- post----->';
             
         }
-
-
-
+        //include aside
+        require 'aside.php';
+        //include pagination
+        require 'pagination.php';
 
         ?>
-
-
-    <aside class="col-lg-4">
-
-
-    </aside>
-
-
 
 </section>
