@@ -5,28 +5,28 @@ $(document).ready(function () {
     // .real-page-item is use for page items without the previous and nest elements
     var page_items=$('.real-page-item'),id;
     function clickedItem() {
-        page_items.each(function () {
-            $(this).click(function () {
-                id=$(this).attr("id");
-                console.log("clicked id :"+id);
+        page_items.click(function (e) {
+            //store the id of the clicked elemnt
+            id=$(this).attr('id');
+            //loop through all the element of the list
+            page_items.each(function () {
+                //console.log("id for the clicked item is :"+id);
+                //console.log("current element id :"+$(this).attr('id'));
+                //test if the current element id is equal to the clicked id
+                if($(this).attr('id')==id){
+                    //console.log('enter the if');
+                    $(this).addClass('active');
+                }//if
+                else {
+                    //console.log('enter the else');
+                    $(this).removeClass('active');
+                }//else
+            });//end of each loop
 
-            });//clicked
-        });//each
-        page_items.each(function () {
-            console.log("current elemnt id :"+$(this).attr("id"));
-            if($(this).attr("id")==id){
-                $(this).addClass('active');
-            }
-            else {
-                $(this).removeClass('active');
-            }
-        });
+        });//end of the click event
+
     }//clickedItem()
 
-    function addActiveClass() {
-        clickedItem();
-
-    }
- addActiveClass();
+    clickedItem();
 
 });//document ready()
