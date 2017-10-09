@@ -1,4 +1,4 @@
-<div class="wrapper-pagination">
+<div class="wrapper-pagination center-block">
     <nav aria-label="Page navigation example">
         <ul class="pagination pagination-lg">
             <li class="page-item">

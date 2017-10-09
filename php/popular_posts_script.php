@@ -2,11 +2,11 @@
 /**
  * Created by PhpStorm.
  * User: user
- * Date: 21/09/2017
- * Time: 12:01
+ * Date: 09/10/2017
+ * Time: 14:36
  */
 //declare the function connectDb() to connect
-function connectDb($host,$db,$username,$password){
+function connectDb1($host,$db,$username,$password){
     try{
         $conn = new PDO("mysql:host=$host;dbname=$db", $username, $password);
         // set the PDO error mode to exception
@@ -23,14 +23,8 @@ $db="blog";
 $username="root";
 $password="";
 //call the method to connect to database
-$conn=connectDb($host,$db,$username,$password);
-
-/*the selection of the posts from tha db*/
-//$query is a sql query that select all the the rows
-$query = $conn->prepare("SELECT * FROM posts");
-//execute the query
-$query->execute();
-//$result is a table that contain all the rows
-$result = $query;
-
-
+$conn1=connectDb1($host,$db,$username,$password);
+//query that select all the post and order them according to their watch count
+$query2=$conn1->prepare("select * from posts ORDER by watch_count DESC ");
+$query2->execute();
+$all_the_post_by_popularity=$query2;

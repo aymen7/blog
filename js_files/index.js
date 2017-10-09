@@ -3,8 +3,8 @@
  */
 $(document).ready(function () {
     // .real-page-item is use for page items without the previous and nest elements
-    var page_items=$('.real-page-item'),id;
     function clickedItem() {
+        var page_items=$('.real-page-item'),id;
         page_items.click(function (e) {
             //store the id of the clicked elemnt
             id=$(this).attr('id');
@@ -26,7 +26,7 @@ $(document).ready(function () {
         });//end of the click event
 
     }//clickedItem()
-
+    //call the function
     clickedItem();
 
 });//document ready()

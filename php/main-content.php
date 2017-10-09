@@ -25,10 +25,11 @@
             echo ' </div><!-- post----->';
             
         }
-        //include aside
-        require 'aside.php';
         //include pagination
         require 'pagination.php';
+        //include aside
+        require 'aside.php';
+
 
         ?>
 
