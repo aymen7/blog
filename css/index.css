@@ -207,7 +207,76 @@
     .fa-twitter-square{
         color: #1DA1F2;
     }
-
-
+/*--------------footer---------------------------*/
+    footer{
+    background: #046dc8; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #222831 , #046dc8); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #222831 , #046dc8); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #222831 , #046dc8); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #222831 , #046dc8); /* Standard syntax */
+    color: white;
+        padding-top: 5%;
 }
-/*---------------------------------*/
+    footer >.shadow{
+        -moz-box-shadow:    3px 3px 5px 2px #ccc;
+        -webkit-box-shadow: 3px 3px 5px 2px #ccc;
+        box-shadow:         3px 3px 5px 2px #ccc;
+        margin-bottom: 50px;
+        padding: 5% 2% 5% 2%;
+    }
+    #newsletter {
+
+    }
+    .footer-item-title{
+        font-family: 'Share Tech Mono', monospace;
+        margin-bottom: 20px;
+    }
+    #footer-newsleter-form div input[type="email"],#footer-newsleter-form div .form-control{
+        width: 60%;
+        margin-right: 5%;
+        display: inline-block;
+        font-family: 'Patua One', cursive;
+    }
+    #footer-newsleter-form div input[type="email"]::placeholder{
+        font-family: 'Patua One', cursive;
+        opacity: 0.7;
+    }
+    #footer-newsleter-form div .btn-default{
+        background-color: #F44336 !important;
+        color: white;
+        font-family: 'Patua One', cursive;
+
+    }
+    #newsletter p,#donation-div p,#aboutUs p{
+        font-family: 'Share Tech Mono', monospace;
+        opacity: .9;
+    }
+    #footer-social{
+        text-align: center;
+    }
+    #footer-social .list-group-item{
+        background-color: rgba(0,0,0,0) !important;
+        margin-right: 5%;
+    }
+    #footer-social .fa-facebook-official,
+    #footer-social .fa-twitter-square ,
+    #footer-social .fa-youtube-square,
+    #footer-social .fa-instagram{
+        color: rgba(255,255,255,.8);
+    }
+
+    #aboutUs{
+        border-style: none;
+    }
+    #copyrights-div{
+        text-align: center;
+    }
+    #copyrights-div h4{
+        font-family: 'Patua One', cursive;
+        opacity: .8;
+    }
+
+
+
+}/*------------320px----------------------*/
+

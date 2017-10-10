@@ -46,6 +46,7 @@
 </div>
 <?php  include ("php/header.php");?>
 <?php  include ("php/main-content.php");?>
+<?php  include ("php/footer.php");?>
 
 
 <!-- js scripts ------------------------------>
