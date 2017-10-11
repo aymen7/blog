@@ -27,7 +27,7 @@ $conn=connectDb($host,$db,$username,$password);
 
 /*the selection of the posts from tha db*/
 //$query is a sql query that select all the the rows
-$query = $conn->prepare("SELECT * FROM posts");
+$query = $conn->prepare("SELECT * FROM posts ORDER by id DESC ");
 //execute the query
 $query->execute();
 //$result is a table that contain all the rows
