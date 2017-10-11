@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a58f3c1e-c528-46a0-834e-7b7df8f5a1aa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/header.php" afterPath="$PROJECT_DIR$/php/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/pagination.php" afterPath="$PROJECT_DIR$/php/pagination.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/index-main-content-files/info about the directory" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/index-main-content-files/main-column.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php/aside.php" afterPath="$PROJECT_DIR$/php/index-main-content-files/aside.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php/pagination.php" afterPath="$PROJECT_DIR$/php/index-main-content-files/pagination.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php/popular-posts-div.php" afterPath="$PROJECT_DIR$/php/index-main-content-files/popular-posts-div.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php/popular_posts_script.php" afterPath="$PROJECT_DIR$/php/index-main-content-files/popular_posts_script.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php/post_script.php" afterPath="$PROJECT_DIR$/php/index-main-content-files/post_script.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php/recent-posts-div.php" afterPath="$PROJECT_DIR$/php/index-main-content-files/recent-posts-div.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php/recent-posts-script.php" afterPath="$PROJECT_DIR$/php/index-main-content-files/recent-posts-script.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php/social-media-div.php" afterPath="$PROJECT_DIR$/php/index-main-content-files/social-media-div.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/main-content.php" afterPath="$PROJECT_DIR$/php/main-content.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,99 +22,27 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="blog" />
+  </component>
+  <component name="FileColors">
+    <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
+    <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
+    <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
+    <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="61" column="21" lean-forward="false" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
-              <folding>
-                <element signature="e#127#358#0" expanded="false" />
-                <element signature="e#370#860#0" expanded="false" />
-                <element signature="e#878#915#0" expanded="false" />
-                <element signature="e#952#1041#0" expanded="false" />
-                <element signature="e#1069#1167#0" expanded="false" />
-                <element signature="e#1209#1264#0" expanded="false" />
-                <element signature="e#1312#1371#0" expanded="false" />
-                <element signature="e#1433#1484#0" expanded="false" />
-                <element signature="e#1502#1691#0" expanded="false" />
-                <element signature="e#1722#1826#0" expanded="false" />
-                <element signature="e#1971#2012#0" expanded="false" />
-                <element signature="e#2094#2129#0" expanded="false" />
-                <element signature="e#2159#2246#0" expanded="false" />
-                <element signature="e#2276#2361#0" expanded="false" />
-                <element signature="e#2446#2478#0" expanded="false" />
-                <element signature="e#2488#2600#0" expanded="false" />
-                <element signature="e#2622#2680#0" expanded="false" />
-                <element signature="e#2706#2738#0" expanded="false" />
-                <element signature="e#2830#2862#0" expanded="false" />
-                <element signature="e#2876#2907#0" expanded="false" />
-                <element signature="e#2951#3052#0" expanded="false" />
-                <element signature="e#3102#3201#0" expanded="false" />
-                <element signature="e#3217#3267#0" expanded="false" />
-                <element signature="e#3289#3360#0" expanded="false" />
-                <element signature="e#3383#3472#0" expanded="false" />
-                <element signature="e#3531#3587#0" expanded="false" />
-                <element signature="e#3608#3694#0" expanded="false" />
-                <element signature="e#3788#3980#0" expanded="false" />
-                <element signature="e#4005#4063#0" expanded="false" />
-                <element signature="e#4094#4181#0" expanded="false" />
-                <element signature="e#4220#4301#0" expanded="false" />
-                <element signature="e#4338#4517#0" expanded="false" />
-                <element signature="e#4558#4596#0" expanded="false" />
-                <element signature="e#4621#4753#0" expanded="false" />
-                <element signature="e#4783#4883#0" expanded="false" />
-                <element signature="e#4925#5028#0" expanded="false" />
-                <element signature="e#5061#5092#0" expanded="false" />
-                <element signature="e#5120#5222#0" expanded="false" />
-                <element signature="e#5252#5285#0" expanded="false" />
-                <element signature="e#5346#5433#0" expanded="false" />
-                <element signature="e#5454#5483#0" expanded="false" />
-                <element signature="e#5509#5633#0" expanded="false" />
-                <element signature="e#5657#5686#0" expanded="false" />
-                <element signature="e#5709#5741#0" expanded="false" />
-                <element signature="e#5767#5798#0" expanded="false" />
-                <element signature="e#5821#5852#0" expanded="false" />
-                <element signature="e#5915#6396#0" expanded="false" />
-                <element signature="e#6416#6632#0" expanded="false" />
-                <element signature="e#6649#6657#0" expanded="false" />
-                <element signature="e#6680#6767#0" expanded="false" />
-                <element signature="e#6859#6986#0" expanded="false" />
-                <element signature="e#7050#7122#0" expanded="false" />
-                <element signature="e#7166#7285#0" expanded="false" />
-                <element signature="e#7330#7409#0" expanded="false" />
-                <element signature="e#7428#7463#0" expanded="false" />
-                <element signature="e#7499#7584#0" expanded="false" />
-                <element signature="e#7738#7782#0" expanded="false" />
-                <element signature="e#7796#7831#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pagination.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/pagination.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="35" column="49" lean-forward="true" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -145,13 +81,16 @@
         <option value="$PROJECT_DIR$/php/popular-posts-div.php" />
         <option value="$PROJECT_DIR$/php/social-media-div.php" />
         <option value="$PROJECT_DIR$/php/footer.php" />
-        <option value="$PROJECT_DIR$/php/main-content.php" />
         <option value="$PROJECT_DIR$/php/post_script.php" />
         <option value="$PROJECT_DIR$/php/aside.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/php/header.php" />
         <option value="$PROJECT_DIR$/php/pagination.php" />
         <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/php/main-column.php" />
+        <option value="$PROJECT_DIR$/php/main-content.php" />
+        <option value="$PROJECT_DIR$/php/index-main-content-files/info about the directory" />
+        <option value="$PROJECT_DIR$/php/post/post.php" />
       </list>
     </option>
   </component>
@@ -223,9 +162,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../wordpress/wp-content/themes/TESSERACT/style.css" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\blog\php\index-main-content-files" />
       <recent name="C:\wamp\www\blog\js_files" />
     </key>
   </component>
@@ -350,20 +291,31 @@
       <workItem from="1507546229462" duration="10165000" />
       <workItem from="1507582694367" duration="4964000" />
       <workItem from="1507643907161" duration="8803000" />
-      <workItem from="1507716194108" duration="4314000" />
+      <workItem from="1507716194108" duration="4328000" />
+      <workItem from="1507722288362" duration="477000" />
+      <workItem from="1507722915544" duration="1278000" />
+      <workItem from="1507738367394" duration="1793000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83808000" />
+    <option name="totallyTimeSpent" value="87370000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -410,34 +362,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="104" column="19" lean-forward="false" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="56" lean-forward="true" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/main-content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="43" lean-forward="false" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/main-content.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -630,14 +554,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js_files/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/popular_posts_script.php">
+    <entry file="file://$PROJECT_DIR$/php/index-main-content-files/popular_posts_script.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
@@ -648,7 +565,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/recent-posts-div.php">
+    <entry file="file://$PROJECT_DIR$/php/index-main-content-files/recent-posts-div.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
@@ -659,25 +576,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/popular-posts-div.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="67" column="53" lean-forward="false" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
-          <folding>
-            <element signature="e#6#86#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/post_script.php">
+    <entry file="file://$PROJECT_DIR$/php/index-main-content-files/post_script.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="29" column="62" lean-forward="false" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
@@ -688,54 +587,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/recent-posts-script.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="21" />
-          <folding>
-            <marker date="1507583018593" expanded="true" signature="811:847" ph="select * fro... posts" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/aside.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="44" lean-forward="false" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/main-content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-          <folding>
-            <marker date="1507716413660" expanded="true" signature="194:489" ph="..." />
-            <marker date="1507716413660" expanded="true" signature="309:462" ph="..." />
-            <marker date="1507716413660" expanded="true" signature="540:835" ph="..." />
-            <marker date="1507716413660" expanded="true" signature="579:671" ph="..." />
-            <marker date="1507716413660" expanded="true" signature="709:816" ph="..." />
-            <marker date="1507716413660" expanded="true" signature="906:1008" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/social-media-div.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="22" column="71" lean-forward="false" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="71" />
-          <folding>
-            <element signature="e#6#86#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CreativeLinkEffects/css/demo.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="100" column="0" lean-forward="true" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -743,15 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="78" lean-forward="true" selection-start-line="17" selection-start-column="78" selection-end-line="17" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -759,7 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -767,30 +612,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="410" column="21" lean-forward="true" selection-start-line="410" selection-start-column="21" selection-end-line="410" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="35" column="49" lean-forward="true" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+        <state relative-caret-position="805">
+          <caret line="35" column="49" lean-forward="false" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/pagination.php">
+    <entry file="file://$PROJECT_DIR$/js_files/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/index-main-content-files/recent-posts-script.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+          <folding>
+            <marker date="1507583018593" expanded="true" signature="811:847" ph="select * fro... posts" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="61" column="21" lean-forward="false" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+        <state relative-caret-position="23">
+          <caret line="186" column="0" lean-forward="false" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
           <folding>
             <element signature="e#127#358#0" expanded="false" />
             <element signature="e#370#860#0" expanded="false" />
@@ -802,6 +656,7 @@
             <element signature="e#1433#1484#0" expanded="false" />
             <element signature="e#1502#1691#0" expanded="false" />
             <element signature="e#1722#1826#0" expanded="false" />
+            <element signature="e#1846#1949#0" expanded="false" />
             <element signature="e#1971#2012#0" expanded="false" />
             <element signature="e#2094#2129#0" expanded="false" />
             <element signature="e#2159#2246#0" expanded="false" />
@@ -851,6 +706,110 @@
             <element signature="e#7738#7782#0" expanded="false" />
             <element signature="e#7796#7831#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="n#footer#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="54" column="21" lean-forward="true" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/index-main-content-files/main-column.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="35" column="32" lean-forward="false" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+          <folding>
+            <element signature="e#6#86#0#PHP" expanded="false" />
+            <element signature="e#172#1163#0#PHP" expanded="false" />
+            <marker date="1507739236833" expanded="true" signature="235:530" ph="..." />
+            <marker date="1507739236833" expanded="true" signature="350:503" ph="..." />
+            <marker date="1507739236833" expanded="true" signature="577:872" ph="..." />
+            <marker date="1507739236833" expanded="true" signature="616:708" ph="..." />
+            <marker date="1507739236833" expanded="true" signature="746:853" ph="..." />
+            <marker date="1507739236833" expanded="true" signature="939:1041" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/index-main-content-files/pagination.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/index-main-content-files/popular-posts-div.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/index-main-content-files/social-media-div.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#86#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/index-main-content-files/info about the directory">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="47" lean-forward="false" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/index-main-content-files/aside.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/main-content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/post/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
