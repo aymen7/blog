@@ -19,11 +19,9 @@
             <ul class="nav navbar-nav " id="main-nav">
                 <li class="main-nav-list " id="link-1" title=""><a href="#a" >Home</a></li>
                 <li class="main-nav-list" id="link-2"><a href="#" >Categories</a></li>
-                <li class="main-nav-list" id="link-3"><a href="#" >Most recent</a></li>
-                <li class="main-nav-list  " id="link-4"><a href="#">Most Popular</a></li>
-                <li class="main-nav-list" id="link-5"><a href="#" >Archive</a></li>
-                <li class="main-nav-list" id="link-6"><a href="#" >About</a></li>
-                <li class="main-nav-list" id="link-7"><a href="#" >Contact</a></li>
+                <li class="main-nav-list" id="link-3"><a href="#" >Archive</a></li>
+                <li class="main-nav-list" id="link-4"><a href="#" >About</a></li>
+                <li class="main-nav-list" id="link-5"><a href="#" >Contact</a></li>
             </ul><!-- end for the main nav list-->
         </div><!-- end of the navba-collapse-->
     </nav><!-- end of the nav tag-->

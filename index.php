@@ -11,7 +11,8 @@
     <meta name="description" content="Blog">
     <meta name="keywords" content="HTML,CSS,JavaScript,JQuery,Php,Ajax,responsive design,bootstrap,portfolio,Aymen,Bennour,photoshop,web,developer">
     <meta name="author" content="Aymen Bennour">
-
+    <!-- Creative LinksEffect-->
+    <link rel="stylesheet" href="CreativeLinkEffects/css/component.css">
     <!-- jqueru Ui-->
     <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.css">
     <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.theme.css">
