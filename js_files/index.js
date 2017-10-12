@@ -6,7 +6,7 @@ $(document).ready(function () {
     function clickedItem() {
         var page_items=$('.real-page-item'),id;
         page_items.click(function (e) {
-            //store the id of the clicked elemnt
+            //store the id of the clicked element
             id=$(this).attr('id');
             //loop through all the element of the list
             page_items.each(function () {

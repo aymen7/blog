@@ -279,7 +279,6 @@
     #footer-social .fa-instagram{
         color: rgba(255,255,255,.8);
     }
-
     #aboutUs{
         border-style: none;
     }
@@ -290,8 +289,56 @@
         font-family: 'Patua One', cursive;
         opacity: .8;
     }
+/*-----------------------------------------------end of the index style---------------------------------------------*/
+#post-wrapper{
+padding-top: 20px;
+}
+#post-wrapper .post-cover-img{
+    width: 100%;
+    height: 280px;
+    margin-bottom: 10px;
+}
+#post-wrapper .tag-wrapper{
+    text-align: left;
+    font-family: 'Patua One', cursive;
+    font-size: medium;
+}
+    #post-wrapper .tag-wrapper i {
+        opacity: .7;
+    }
+    #post-wrapper .tag-wrapper strong{
+        color: #046dc8;
+    }
+#post-wrapper .author-wrapper{
+    margin-left:25%;
+    font-family: 'Patua One', cursive;
+    font-size: medium;
 
-
+}
+    #post-wrapper .author-wrapper i {
+        opacity: .7;
+    }
+    #post-wrapper .author-wrapper strong{
+        color: #046dc8;
+    }
+    #post-wrapper h1{
+        font-family: 'Patua One', cursive;
+        margin-top: 20px;
+        font-size: 40px;
+    }
+    #post-wrapper p,.section-wrapper p{
+        font-family: 'Patua One', cursive;
+        opacity: .6;
+    }
+    .section-wrapper h2{
+        font-family: 'Patua One', cursive;
+        color: #046dc8;
+    }
+    .section-wrapper .section-cover-img{
+    width: 100%;
+    height: 280px;
+    margin: 7% 0 7% 0;
+}
 
 }/*------------320px----------------------*/
 

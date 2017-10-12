@@ -43,6 +43,8 @@
 <?php  include ("../particles.php");?>
 <!-- header.php-->
 <?php  include ("../header.php");?>
+<!-- post_main_content-->
+<?php  include ("post_main_content.php");?>
 
 <?php  include ("../footer.php");?>
 
