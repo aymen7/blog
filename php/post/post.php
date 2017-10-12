@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <!-------------------------- the head tag------------------------------------------>
 <head>
@@ -12,18 +11,18 @@
     <meta name="keywords" content="HTML,CSS,JavaScript,JQuery,Php,Ajax,responsive design,bootstrap,portfolio,Aymen,Bennour,photoshop,web,developer">
     <meta name="author" content="Aymen Bennour">
     <!-- Creative LinksEffect-->
-    <link rel="stylesheet" href="CreativeLinkEffects/css/component.css">
+    <link rel="stylesheet" href="../../CreativeLinkEffects/css/component.css">
     <!-- jqueru Ui-->
-    <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.css">
-    <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.theme.css">
+    <link rel="stylesheet" href="../../jquery-ui-1.12.1.custom/jquery-ui.css">
+    <link rel="stylesheet" href="../../jquery-ui-1.12.1.custom/jquery-ui.theme.css">
     <!-- Bootstrap -->
-    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- normalize css-->
-    <link href="css/normalize.css" rel="stylesheet">
+    <link href="../../css/normalize.css" rel="stylesheet">
     <!-- font awesome -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/font-awesome.min.css">
     <!-- my style css-->
-    <link rel="stylesheet" href="css/index.css" >
+    <link rel="stylesheet" href="../../css/index.css" >
     <!-- font links -->
     <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
@@ -41,27 +40,26 @@
 </head>
 <!----------------------------- the body tag--------------------------------------->
 <body>
+<?php  include ("../particles.php");?>
 <!-- header.php-->
+<?php  include ("../header.php");?>
 
-<?php  include ("php/particles.php");?>
-<?php  include ("php/header.php");?>
-<?php  include ("php/main-content.php");?>
-<?php  include ("php/footer.php");?>
+<?php  include ("../footer.php");?>
 
 
 <!-- js scripts ------------------------------>
 
 <!-- jquery script-->
-<script src="js_files/jquery-3.1.1.js"></script>
+<script src="../../js_files/jquery-3.1.1.js"></script>
 <!-- jquery ui script-->
-<script src="jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+<script src="../../jquery-ui-1.12.1.custom/jquery-ui.js"></script>
 <!-- bootstrap script-->
-<script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+<script type="text/javascript" src="../../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
 <!-- my js script-->
-<script src="js_files/index.js"></script>
+<script src="../../js_files/index.js"></script>
 
-<script src="particles.js-master/particles.js"></script>
-<script src="particles.js-master/demo/js/app.js"></script>
-<script src="particles.js-master/demo/js/lib/stats.js"></script>
+<script src="../../particles.js-master/particles.js"></script>
+<script src="../../particles.js-master/demo/js/app.js"></script>
+<script src="../../particles.js-master/demo/js/lib/stats.js"></script>
 </body><!-- end of the body tag -------------->
 </html><!-- end of the document-->

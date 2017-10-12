@@ -28,7 +28,7 @@
         echo '<div class="author-div">
                 <span><i>by </i></span><h3><a href="#">'.$row['author'].'</a></h3>
             </div>';
-        echo '<a href="#" class="btn btn-default">Continue Reading</a>';
+        echo '<a href="php/post/post.php?id='.$row["id"].'" class="btn btn-default">Continue Reading</a>';
         echo ' </div><!-- post----->';
 
     }
