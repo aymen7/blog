@@ -57,9 +57,24 @@ foreach ($sectionQuery as $sr1){
     $i=$i+1;
 }
 echo "</div>";//end of the post-wrapper
-
-
-
+/*-----------------------------------end of the post displaying --------------------------------------------*/
 ?>
+<div id="social-sharing" class="container">
+    <div class="row" id="wrapper">
+        <div class="col-xs-4" id="fb-sharing"><?php include 'fb-share-btn.php';?></div>
+        <div class="col-xs-4" id="LinkdIn-sharing">
+            <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+            <script type="IN/Share" data-counter="right"></script></div>
+        <div class="col-xs-4" id="twitter-sharing">
+            <a class="twitter-share-button"
+               href="https://twitter.com/intent/tweet?text=Hello%20world"
+               >
+                Tweet</a>
+
+        </div>
+
+    </div><!-- end of the wrapper-->
+</div><!-- end of the social-sharing -->
+
 
 

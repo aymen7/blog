@@ -10,6 +10,9 @@
     <meta name="description" content="Blog">
     <meta name="keywords" content="HTML,CSS,JavaScript,JQuery,Php,Ajax,responsive design,bootstrap,portfolio,Aymen,Bennour,photoshop,web,developer">
     <meta name="author" content="Aymen Bennour">
+
+
+</head>
     <!-- Creative LinksEffect-->
     <link rel="stylesheet" href="../../CreativeLinkEffects/css/component.css">
     <!-- jqueru Ui-->
@@ -50,6 +53,14 @@
 
 
 <!-- js scripts ------------------------------>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 
 <!-- jquery script-->
 <script src="../../js_files/jquery-3.1.1.js"></script>

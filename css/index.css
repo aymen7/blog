@@ -339,6 +339,14 @@ padding-top: 20px;
     height: 280px;
     margin: 7% 0 7% 0;
 }
+    /*----------------social sharing--------*/
+    #social-sharing {
+        margin: 10px 0 10px 0 ;
+
+    }
+    #social-sharing #wrapper{
+        padding: 20px 0 20px 10px;
+    }
 
 }/*------------320px----------------------*/
 
